@@ -1,7 +1,7 @@
 package com.tensquare.recruit.controller;
 
-import com.tensquare.base.entity.Result;
-import com.tensquare.base.entity.StatusCode;
+import com.tensquare.common.entity.Result;
+import com.tensquare.common.entity.StatusCode;
 import com.tensquare.recruit.pojo.Recruit;
 import com.tensquare.recruit.service.RecruitService;
 import org.springframework.beans.factory.annotation.Autowired;

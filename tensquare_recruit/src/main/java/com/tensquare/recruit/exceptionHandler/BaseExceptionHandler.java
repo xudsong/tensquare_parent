@@ -1,7 +1,7 @@
 package com.tensquare.recruit.exceptionHandler;
 
-import com.tensquare.base.entity.Result;
-import com.tensquare.base.entity.StatusCode;
+import com.tensquare.common.entity.Result;
+import com.tensquare.common.entity.StatusCode;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;

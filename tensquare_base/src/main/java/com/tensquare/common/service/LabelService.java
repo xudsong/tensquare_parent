@@ -1,8 +1,8 @@
-package com.tensquare.base.service;
+package com.tensquare.common.service;
 
-import com.tensquare.base.dao.LabelDao;
-import com.tensquare.base.pojo.Label;
-import com.tensquare.base.utils.IdWorker;
+import com.tensquare.common.dao.LabelDao;
+import com.tensquare.common.pojo.Label;
+import com.tensquare.common.utils.IdWorker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.tensquare.base.utils;
+package com.tensquare.common.utils;
 
 import java.lang.management.ManagementFactory;
 import java.net.InetAddress;

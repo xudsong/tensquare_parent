@@ -1,6 +1,6 @@
 package com.tensquare.recruit.service;
 
-import com.tensquare.base.utils.IdWorker;
+import com.tensquare.common.utils.IdWorker;
 import com.tensquare.recruit.dao.RecruitDao;
 import com.tensquare.recruit.pojo.Recruit;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,8 +1,6 @@
-package com.tensquare.base.entity;
+package com.tensquare.common.entity;
 
 import lombok.Data;
-
-import java.util.Collection;
 
 @Data
 public class Result {

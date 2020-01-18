@@ -1,22 +1,20 @@
-package com.tensquare.recruit;
+package com.tensquare.mongoDemon;
 
 import com.tensquare.common.utils.IdWorker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-@EnableCaching
-public class RecruitApplication {
+public class MongoDemonApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RecruitApplication.class);
+        SpringApplication.run(MongoDemonApplication.class);
     }
 
     @Bean
-    public IdWorker idWorker(){
-        return new IdWorker(1,1);
+    public IdWorker idWorkker(){
+        return new IdWorker(1, 1);
     }
 
 }

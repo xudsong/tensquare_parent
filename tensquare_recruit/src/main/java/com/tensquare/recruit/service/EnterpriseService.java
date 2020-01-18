@@ -1,6 +1,6 @@
 package com.tensquare.recruit.service;
 
-import com.tensquare.base.utils.IdWorker;
+import com.tensquare.common.utils.IdWorker;
 import com.tensquare.recruit.dao.EnterpriseDao;
 import com.tensquare.recruit.pojo.Enterprise;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,6 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 @Service
 public class EnterpriseService {

@@ -1,4 +1,4 @@
-package com.tensquare.base.config;
+package com.tensquare.common.config;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;

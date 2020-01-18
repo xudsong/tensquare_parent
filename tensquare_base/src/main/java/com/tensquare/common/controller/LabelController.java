@@ -1,13 +1,11 @@
-package com.tensquare.base.controller;
+package com.tensquare.common.controller;
 
-import com.tensquare.base.entity.Result;
-import com.tensquare.base.entity.StatusCode;
-import com.tensquare.base.pojo.Label;
-import com.tensquare.base.service.LabelService;
+import com.tensquare.common.entity.Result;
+import com.tensquare.common.entity.StatusCode;
+import com.tensquare.common.pojo.Label;
+import com.tensquare.common.service.LabelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @CrossOrigin //跨域处理

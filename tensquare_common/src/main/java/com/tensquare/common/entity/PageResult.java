@@ -1,4 +1,4 @@
-package com.tensquare.base.entity;
+package com.tensquare.common.entity;
 
 import lombok.Data;
 

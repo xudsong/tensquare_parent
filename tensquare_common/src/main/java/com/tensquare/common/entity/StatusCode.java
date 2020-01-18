@@ -1,4 +1,4 @@
-package com.tensquare.base.entity;
+package com.tensquare.common.entity;
 
 /**
  * 状态码实体类
